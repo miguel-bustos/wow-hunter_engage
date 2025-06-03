@@ -172,6 +172,6 @@ function HunterEngage:SetupOptions()
         self:Print("|cff99ff99New keybind set to [" .. bind .. "]|r")
 
         self:SetupSecureButton()
-        AceConfigDialog:SelectGroup("Hunter Engage")
+        AceConfigDialog:SelectGroup(addonName)
     end)
 end
